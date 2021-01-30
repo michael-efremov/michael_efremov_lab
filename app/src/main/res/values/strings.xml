@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestTinkoffLab</string>
+
+    <string name="menu_latest">Latest</string>
+    <string name="menu_hot">Hot</string>
+    <string name="menu_top">Top</string>
+
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
+    <string name="button_retry">Retry</string>
+    <string name="gif_empty">Empty</string>
+    <string name="error_load_image">"Error load image. "</string>
+
+    <string name="argument_hot" translatable="false">hot</string>
+    <string name="argument_top" translatable="false">top</string>
+    <string name="argument_latest" translatable="false">latest</string>
+</resources>

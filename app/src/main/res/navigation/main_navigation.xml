@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/latestFragment">
+    <fragment
+        android:id="@+id/hotFragment"
+        android:name="ru.mike.lab.fragments.PostFragment"
+        android:label="hot_fragment_layout">
+        <argument
+            android:name="TYPE"
+            app:argType="string"
+            android:defaultValue="hot" />
+    </fragment>
+    <fragment
+        android:id="@+id/topFragment"
+        android:name="ru.mike.lab.fragments.PostFragment"
+        android:label="fragment_top_layout">
+        <argument
+            android:name="TYPE"
+            app:argType="string"
+            android:defaultValue="top" />
+    </fragment>
+    <fragment
+        android:id="@+id/latestFragment"
+        android:name="ru.mike.lab.fragments.PostFragment"
+        android:label="fragment_latest_layout">
+        <argument
+            android:name="TYPE"
+            android:defaultValue="latest"
+            app:argType="string" />
+    </fragment>
+</navigation>
